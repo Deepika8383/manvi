@@ -4,7 +4,7 @@
 const mongoose = require('mongoose');
 
 // MongoDB connection
-mongoose.connect("mongodb+srv://deepika8383:Harekrishna@cluster0.5m1rpme.mongodb.net/");
+mongoose.connect("apply ypur url here thats all ");
 
 const vehicleSchema = new mongoose.Schema({
     vin: { type: String, required: true, unique: true, length: 17 },
